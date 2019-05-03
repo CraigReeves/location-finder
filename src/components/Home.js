@@ -31,7 +31,7 @@ class Home extends Component {
         if (this.state.user_id.trim() === '' || this.state.password.trim() === '')
             return this.setState({error_message: 'User ID and password are required.'});
 
-        if (this.state.user_id.trim() !== 'foo' && this.state.password !== 'bar') {
+        if (this.state.user_id.trim() !== 'foo' || this.state.password !== 'bar') {
             return this.props.history.push('/login/error');
         }
 
