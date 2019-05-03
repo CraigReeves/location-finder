@@ -1,0 +1,24 @@
+{
+  "name": "location-finder",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "start": "live-server dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "axios": "^0.18.0",
+    "history": "^4.9.0",
+    "liveserver": "^0.1.20",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
+  },
+  "description": ""
+}
